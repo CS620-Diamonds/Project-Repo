@@ -1,7 +1,6 @@
 Sub Initialize()
     On Error Resume Next
     Err.Clear
-    Call DeclareGlobals
     Call PopulateFacultyIndex(facultyIndex)
     Call PopulateStatusIndex(statusIndex)
     Call PopulateGradUndergradIndex(gradUndergradIndex)

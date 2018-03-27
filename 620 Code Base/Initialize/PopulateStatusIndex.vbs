@@ -1,12 +1,7 @@
 Sub PopulateStatusIndex(statusIndex As Variant)
-    ReDim statusIndex(3, 2) As Variant
-    'index values
-        statusIndex(0, 0) = 1
-        statusIndex(1, 0) = 2
-    'status values
-        statusIndex(0, 1) = "Part Time"
-        statusIndex(1, 1) = "Full Time"
-    'max classes for given status
-        statusIndex(0, 2) = 2
-        statusIndex(1, 2) = 4
+    ReDim statusIndex(2) As Variant
+    Worksheets("IndexValues").Activate
+    For i = 0 To 1
+        statusIndex(i) = Worksheets("IndexValues").Range("C" & (i + 2))
+    Next i
 End Sub

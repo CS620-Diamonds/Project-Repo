@@ -9,6 +9,7 @@ Sub Initialize()
     Call PopulateDaysOffIndex(daysOffIndex)
     Call PopulateTimeIndex(timeBlockIndex)
     Call PopulateB2BFlag(back2backFlag)
+    Worksheets("Responses").Activate
     If Err.Number = 0 Then
         MsgBox "Worksheet is successfully initialized: Please press 'Create Schedule' to proceed"
     End If

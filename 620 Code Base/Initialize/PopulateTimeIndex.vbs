@@ -1,0 +1,59 @@
+Sub PopulateTimeIndex(timeBlockIndex As Variant)
+    ReDim timeBlockIndex(26)
+    'index keys
+'        timeBlockIndex(0, 0) = 1
+'        timeBlockIndex(1, 0) = 2
+'        timeBlockIndex(2, 0) = 3
+'        timeBlockIndex(3, 0) = 4
+'        timeBlockIndex(4, 0) = 5
+'        timeBlockIndex(5, 0) = 6
+'        timeBlockIndex(6, 0) = 7
+'        timeBlockIndex(7, 0) = 8
+'        timeBlockIndex(8, 0) = 9
+'        timeBlockIndex(9, 0) = 10
+'        timeBlockIndex(10, 0) = 11
+'        timeBlockIndex(11, 0) = 12
+'        timeBlockIndex(12, 0) = 13
+'        timeBlockIndex(13, 0) = 14
+'        timeBlockIndex(14, 0) = 15
+'        timeBlockIndex(15, 0) = 16
+'        timeBlockIndex(16, 0) = 17
+'        timeBlockIndex(17, 0) = 18
+'        timeBlockIndex(18, 0) = 19
+'        timeBlockIndex(19, 0) = 20
+'        timeBlockIndex(20, 0) = 21
+'        timeBlockIndex(21, 0) = 22
+'        timeBlockIndex(22, 0) = 23
+'        timeBlockIndex(23, 0) = 24
+'        timeBlockIndex(24, 0) = 25
+'        timeBlockIndex(25, 0) = 26
+'        timeBlockIndex(26, 0) = 27
+    'index values
+        timeBlockIndex(0) = "MW @ 8:00 am"
+        timeBlockIndex(1) = "TF @ 8:00 am"
+        timeBlockIndex(2) = "R @ 8:00 am"
+        timeBlockIndex(3) = "MW @ 9:30 am"
+        timeBlockIndex(4) = "TF @ 9:30 am"
+        timeBlockIndex(5) = "MR @ 11:00 am"
+        timeBlockIndex(6) = "TF @ 11:00 am"
+        timeBlockIndex(7) = "MR @ 12:30 pm"
+        timeBlockIndex(8) = "TF @ 12:30 pm"
+        timeBlockIndex(9) = "W @ 11:00 am"
+        timeBlockIndex(10) = "MR @ 2:00 pm"
+        timeBlockIndex(11) = "MW @ 3:30 pm"
+        timeBlockIndex(12) = "TF @ 3:30 pm"
+        timeBlockIndex(13) = "MW @ 5:00 pm"
+        timeBlockIndex(14) = "TR @ 5:00 pm"
+        timeBlockIndex(15) = "M @ 6:30 pm"
+        timeBlockIndex(16) = "T @ 6:30 pm"
+        timeBlockIndex(17) = "W @ 6:30 pm"
+        timeBlockIndex(18) = "R @ 6:30 pm"
+        timeBlockIndex(19) = "M Graduate Early"
+        timeBlockIndex(20) = "T Graduate Early"
+        timeBlockIndex(21) = "W Graduate Early"
+        timeBlockIndex(22) = "R Graduate Early"
+        timeBlockIndex(23) = "M Graduate Late"
+        timeBlockIndex(24) = "T Graduate Late"
+        timeBlockIndex(25) = "W Graduate Late"
+        timeBlockIndex(26) = "R Graduate Late"
+End Sub

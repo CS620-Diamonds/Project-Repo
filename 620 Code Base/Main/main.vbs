@@ -3,14 +3,6 @@ Sub Main()
     Call Initialize.Initialize  'sets globals and populates index arrays
     Call Utilities.PopulateResponseArray(responseArray, TotalResponseRows) 'stores response data in an array
     Call Utilities.RefreshScheduleArray(scheduleArray, TotalScheduleRows)  'refreshes schedule data in an array
-    Call Initialize.PopulateTimeIndex(timeBlockIndex)
-    Call Initialize.PopulateB2BFlag(back2backFlag)
-    Call Initialize.PopulateCourseIndex(courseIndex)
-    Call Initialize.PopulateDaysOffFlag(daysOffFlag)
-    Call Initialize.PopulateDaysOffIndex(daysOffIndex)
-    Call Initialize.PopulateFacultyIndex(facultyIndex)
-    Call Initialize.PopulateGradUndergradIndex(gradUndergradIndex)
-    Call Initialize.PopulateStatusIndex(statusIndex)
 
    'for each response:
     For i = 1 To TotalResponseRows

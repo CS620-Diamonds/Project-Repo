@@ -1,4 +1,4 @@
 Sub ClearResponses()
     Worksheets("Responses").Activate
-    Sheets("Responses").UsedRange.ClearContents
+    Sheets("Responses").Cells.Clear
 End Sub
